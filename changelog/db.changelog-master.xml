@@ -30,4 +30,11 @@
                  relativeToChangelogFile="false"/>
     </changeSet>
 
+
+
+    <changeSet id="5" author="intern">
+        <sqlFile path="changelog/scripts/v5__create_orders_table.sql"
+                 relativeToChangelogFile="false"/>
+    </changeSet>
+
 </databaseChangeLog>

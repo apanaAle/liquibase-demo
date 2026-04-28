@@ -23,4 +23,11 @@
         <rollback>DELETE FROM users;</rollback>
     </changeSet>
 
+
+
+    <changeSet id="4" author="intern">
+        <sqlFile path="changelog/scripts/v4__add_phone_column.sql"
+                 relativeToChangelogFile="false"/>
+    </changeSet>
+
 </databaseChangeLog>

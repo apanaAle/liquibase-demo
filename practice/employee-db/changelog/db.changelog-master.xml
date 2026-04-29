@@ -8,5 +8,8 @@
     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
 
     <include file="scripts/001-create-employees.sql"/>
+    <include file="scripts/002-create-department.sql"/>
+    <include file="scripts/003-add-department-relation.sql"/>
+    <include file="scripts/004-insert-data.sql"/>
 </databaseChangeLog>
 
